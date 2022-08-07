@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="e__logo">ONLY.</div>
+        <form action="" class="e__form">
+            <div class="validation__block">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="10" fill="#FFC8C8"/>
+                    <path d="M9.036 13.446V15H10.59V13.446H9.036ZM10.478 8.084V5.004H9.148V8.084L9.498 12.438H10.128L10.478 8.084Z" fill="#EE6565"/>
+                </svg>
+                <div class="validation__block_text"></div>
+            </div>
+            <div class="e__form_input">
+                <label for="login">Логин</label>
+                <input id="login" type="email" maxlength="50">
+                <label for="login" class="validation_label">обязательное поле</label>
+            </div>
+            <div class="e__form_input">
+                <label for="pass">Пароль</label>
+                <input id="pass" type="password">
+                <label for="pass" class="validation_label">обязательное поле</label>
+            </div>
+            <div class="e__form_checkbox">
+                <div class="checkbox_body">
+                    <input type="checkbox" class="custom-checkbox" id="happy" value="yes">
+                    <label for="happy"></label>
+                </div>
+                <div class="checkbox_text">
+                    Запомнить пароль
+                </div>
+            </div>
+            <div class="e__form_btn"><button>Войти</button></div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
